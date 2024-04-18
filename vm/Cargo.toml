@@ -63,7 +63,7 @@ keccak = { workspace = true }
 hashbrown = { workspace = true }
 anyhow = { workspace = true }
 thiserror-no-std = { workspace = true }
-starknet-types-core = { version = "0.0.9", default-features = false, features = ["serde", "curve", "num-traits"] }
+starknet-types-core = { version = "0.1.0", default-features = false, features = ["serde", "curve", "num-traits", "hash"] }
 cairo-lang-starknet-classes = { workspace = true }
 
 # only for std
